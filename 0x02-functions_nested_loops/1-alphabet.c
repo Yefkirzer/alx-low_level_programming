@@ -6,9 +6,10 @@
  */
 int main(void)
 {
-  while (a <= z)
-    {
-      _putchar(a);
-    }
-  _putchar('\n');
+char a;
+while (a <= z)
+ {
+ _putchar(a);
+ }
+_putchar('\n');
 }
