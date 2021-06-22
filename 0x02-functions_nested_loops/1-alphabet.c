@@ -12,5 +12,9 @@ while (a <= 'z')
  _putchar(a);
  }
 _putchar('\n');
-return(0);
+}
+int main(void)
+{
+print_alphabet();
+return (0);
 }
