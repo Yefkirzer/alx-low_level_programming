@@ -1,5 +1,11 @@
 #include "holberton.h"
-
+/**
+ * main - prints Holberton
+ *
+ * Description: prints Holberton
+ *
+ * Return: 0 (Success)
+ */
 int main()
 {
 char holberton[9]="Holberton";
