@@ -1,4 +1,4 @@
-#nclude "holberton.h"
+x#include "holberton.h"
 /**
  * main - prints Holberton
  *
@@ -6,13 +6,14 @@
  *
  * Return: 0 (Success)
  */
-int main()
+int main(void)
 {
-char holberton[9]="Holberton";
-for( int i = 0 ; i <9 ; i++)
-{
-putchar(holberton[i]);
-}
-putchar("\n");
-return 0;
+  char holberton[9] = "Holberton";
+  int i;
+  for (i = 0; i < 9; i++)
+    {
+      _putchar(holberton[i]);
+    }
+  _putchar('\n');
+return (0);
 }
