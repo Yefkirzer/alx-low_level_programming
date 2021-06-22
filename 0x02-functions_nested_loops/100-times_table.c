@@ -37,7 +37,7 @@ else
 if (y != 0)
 {
 _putchar(',');
- _putchar(32);
+_putchar(32);
 _putchar(32);
 _putchar(32);
 }
