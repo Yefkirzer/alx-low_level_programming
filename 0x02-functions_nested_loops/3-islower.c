@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <ctype.h>
 /**
- * print_alphabet_x10 - prints alphabet 10x
+ * _islower - checks whether a character is upper case or lowercase
  *
  * Return: void
  */
