@@ -12,8 +12,8 @@ char holberton[9]="Holberton";
 int i;
 for(i = 0 ; i <9 ; i++)
 {
-putchar(holberton[i]);
+_putchar(holberton[i]);
 }
-putchar("\n");
+_putchar("\n");
 return 0;
 }
