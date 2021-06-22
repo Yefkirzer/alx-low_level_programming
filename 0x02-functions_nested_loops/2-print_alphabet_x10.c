@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * print_alphabet - 'ur description goes here'
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - prints alphabet 10x
+ * Return: void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
   char c = 'a';
   int i = 0;
