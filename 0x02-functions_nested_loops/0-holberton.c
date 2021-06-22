@@ -1,4 +1,4 @@
-#nclude "holberton.h"
+#include "holberton.h"
 /**
  * main - prints Holberton
  *
@@ -9,7 +9,8 @@
 int main()
 {
 char holberton[9]="Holberton";
-for( int i = 0 ; i <9 ; i++)
+int i;
+for(i = 0 ; i <9 ; i++)
 {
 putchar(holberton[i]);
 }
