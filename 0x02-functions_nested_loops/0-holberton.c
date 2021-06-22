@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-char holberton[9]="Holberton";
+char holberton[9] = "Holberton";
 int i;
 for(i = 0 ; i <9 ; i++)
 {
