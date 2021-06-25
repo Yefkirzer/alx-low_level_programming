@@ -1,13 +1,18 @@
-  
-#include "holberton.h"
+  #include "holberton.h"
 
 /**
- * main - check the code for ALX School students.
+ * print_numbers - prints the numbers, from 0 to 9
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+void print_numbers(void)
 {
-print_numbers();
-return (0);
+int num = 0;
+
+while (num <= 9)
+{
+_putchar(num + '0');
+num++;
+}
+_putchar('\n');
 }
