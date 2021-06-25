@@ -1,12 +1,13 @@
+  
 #include "holberton.h"
 
 /**
- * mul - multiplies two integers
- * @a:  first integer
- * @b: second integer
- * Return: the product of a and b
+ * main - check the code for ALX School students.
+ *
+ * Return: Always 0.
  */
-int mul(int a, int b)
+int main(void)
 {
-  return (a * b);
+print_numbers();
+return (0);
 }
