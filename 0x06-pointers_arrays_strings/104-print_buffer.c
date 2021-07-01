@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-
 /**
  * isPrintableASCII - determines if n is a printable ASCII char
  * @n: integer
@@ -10,7 +9,6 @@ int isPrintableASCII(int n)
 {
 return (n >= 32 && n <= 126);
 }
-
 /**
  * printHexes - print hex values for string b in formatted form
  * @b: string to print
@@ -31,7 +29,6 @@ printf(" ");
 i++;
 }
 }
-
 /**
  * printASCII - print ascii values for string b,
  * formatted to replace nonprintable chars with '.'
@@ -51,7 +48,6 @@ printf("%c", ch);
 i++;
 }
 }
-
 /**
  * print_buffer - prints a buffer
  * @b: string
@@ -70,7 +66,6 @@ printHexes(b, start, end);
 printASCII(b, start, end);
 printf("\n");
 }
-} 
-else
+} else
 printf("\n");
 }
