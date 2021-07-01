@@ -55,7 +55,7 @@ i++;
  */
 void print_buffer(char *b, int size)
 {
-int start, end;
+int start , end;
 if (size > 0)
 {
 for (start = 0; start < size; start += 10)
