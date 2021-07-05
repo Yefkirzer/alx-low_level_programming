@@ -1,5 +1,4 @@
-  
-#include "holberton.h"
+  #include "holberton.h"
 /**
  * set_string - this function set a pointer to pointer
  * @s: the pointer
