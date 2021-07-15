@@ -5,7 +5,6 @@
  * @s: string
  * Return: int
  */
-
 unsigned int _strlen(char *s)
 {
 unsigned int size = 0;
@@ -13,7 +12,6 @@ for (; s[size] != '\0'; size++)
 ;
 return (size);
 }
-
 /**
  * *string_nconcat - concatenates two strings
  * @s1: string 1
@@ -21,7 +19,6 @@ return (size);
  * @n: first bytes of s2 to be used
  * Return: pointer or NULL
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int i, j;
