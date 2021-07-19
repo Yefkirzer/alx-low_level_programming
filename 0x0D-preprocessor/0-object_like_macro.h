@@ -1,1 +1,3 @@
-#!/bin/bash
+#ifndef SIZE
+#define SIZE 1024
+#endif
